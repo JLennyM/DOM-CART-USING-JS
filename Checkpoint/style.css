@@ -1,0 +1,134 @@
+/* .navbar-brand {
+  color: green !important;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  i {
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: black;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shopping-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 50px 0;
+  }
+  .total-price span {
+    font-size: 30px;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  .list-products {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 70%;
+  }
+  .card {
+    padding: 5%;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity {
+    font-size: 25px;
+  }
+  
+  .card-body div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .fa-trash-alt {
+    color: #de6b5c;
+  }
+  .calculator__key--operator {
+    background: hsl(208, 25%, 86%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background: hsl(255, 100%, 100%);
+    padding: 0.5rem;
+    background: hsl(210, 25%, 95%);
+    border: none;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 1.25rem;
+    padding-inline-start: 1.25rem;
+    font-size: 1.5rem;
+    /* Playful Styles */
+    inline-size: 70px;
+    block-size: 70px;
+    margin: 0.25rem;
+    border-radius: 40px;
+
+  }
+  .calculator__key--operator:active {
+    background: hsl(208, 24%, 80%);
+  }
+  #text{
+    display:flex;
+    justify-content:center;
+    
+  }
+  .heart-btn {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .heart-btn1 {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .heart-btn2 {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+  }
+    /* Style for the delete button */
+    .delete-button {
+      background-color: #f44336; /* Red */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+   
+    
